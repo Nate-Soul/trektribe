@@ -13,7 +13,7 @@ const MainHeader = () => {
     const currentUrl = usePathname();
 
   return (
-    <header className="bg-white text-dark-300 text-lg py-4">
+    <header className="bg-white text-dark-300 text-lg pt-4">
         <div className="container flex items-center justify-between">
             <Logo/>
             <Navbar/>

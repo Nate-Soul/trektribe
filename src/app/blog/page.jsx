@@ -54,6 +54,7 @@ const BlogList = () => {
                         className="rounded-lg bg-primary-500 text-white py-2 px-3 inline-flex justify-center items-center gap-x-2"
                     >
                         Load More
+                        <span className="bi-arrow-repeat"></span>
                     </button>
                 </div>
             </div>

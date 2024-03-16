@@ -4,19 +4,19 @@ const NavbarSecondary = () => {
 
     const tabs = [
         {
-            name: "All"
+            text: "All"
         },
         {
-            name: "Travel Ideas"
+            text: "Travel Ideas"
         },
         {
-            name: "Travel Tips"
+            text: "Travel Tips"
         },
         {
-            name: "Agencies"
+            text: "Agencies"
         },
         {
-            name: "More"
+            text: "More"
         },
     ]
 
@@ -27,9 +27,20 @@ const NavbarSecondary = () => {
                 {
                     tabs && tabs.map((tab, tabIndex) => (
                         <li key={tabIndex}>
+                        {tab.text === "More" ? (
+                        <>
                             <button className="text-lg hover:text-white border-b border-transparent">
-                                {tab.name}
+                                {tab.text} <span className="bi-chevron-down ml-1"></span>
+                            </button> 
+                            <ul className="hidden">
+                                <li>hola</li>
+                            </ul>
+                        </>
+                        ) : (
+                            <button className="text-lg hover:text-white border-b border-transparent">
+                                {tab.text}
                             </button>
+                        )}
                         </li>
                     ))
                 }

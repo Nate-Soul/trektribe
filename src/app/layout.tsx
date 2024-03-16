@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Bellefair } from "next/font/google";
 import "./globals.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";

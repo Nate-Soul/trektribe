@@ -13,20 +13,20 @@ const Navbar = () => {
             text: "Home"
         },
         {
-            id: 1,
+            id: 2,
             url: "/blog",
             text: "Blog"
         },
         {
-            id: 1,
+            id: 3,
             url: "/about",
             text: "About"
         },
-        {
-            id: 1,
-            url: "/#",
-            text: "More"
-        },
+        // {
+        //     id: 4,
+        //     url: "/#",
+        //     text: "More"
+        // },
     ];
 
   return (
@@ -46,7 +46,11 @@ const Navbar = () => {
         <ul>
             <li className="flex gap-2 items-center"> en <span className="bg-secondary-500 h-px w-8 inline-flex"></span> fr </li>
         </ul>
-        <span>Search</span>
+        <ul className="flex gap-x-4 items-center">
+            <li><button></button><span className="bi-list"></span></li>
+            <li><button></button><span className="bi-search"></span></li>
+        </ul>
+        
     </nav>
   )
 }
