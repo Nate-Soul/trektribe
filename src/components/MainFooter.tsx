@@ -5,12 +5,12 @@ import Logo from "./Logo";
 
 const MainFooter = () => {
   return (
-    <footer className="py-16 bg-secondary-500 text-white font-bellefair">
+    <footer className="py-16 bg-secondary-500 text-white">
         <div className="container flex flex-col gap-y-16 items-center">
             <div className="flex gap-3 items-center">
                 <span className="h-px bg-light-700 w-72"></span>
                 <Logo/>
-                <h5 className="text-4xl">TrekTribe.com</h5>
+                <h5 className="text-4xl font-bellefair">TrekTribe.com</h5>
                 <span className="h-px bg-light-700 w-72"></span>
             </div>
             <div className="flex flex-col gap-y-3 items-center">
@@ -31,7 +31,7 @@ const MainFooter = () => {
                         </Link>
                     </li>
                 </ul>
-                <p className="text-light-700 text-[1.75rem]">&copy; <span>2022</span> TrekTribe.com | All rights reserved.</p>
+                <p className="text-light-700 text-[1.75rem] font-bellefair">&copy; <span>2022</span> TrekTribe.com | All rights reserved.</p>
             </div>
         </div>
       

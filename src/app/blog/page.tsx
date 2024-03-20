@@ -12,7 +12,6 @@ const BlogList = () => {
 
     const featuredArticle = articles[0];
 
-    const articleData = articles.filter(article => article.id !== 1);
   return (
     <>
         <section className="py-6">
@@ -45,7 +44,7 @@ const BlogList = () => {
             <div className="container">
                 <SectionHeading title="Recent Blog Posts" />
                 <div className="grid grid-cols-3 gap-x-0 gap-y-16">
-                    {articleData.length > 0 && articleData.map((article, articleIndex) => (
+                    {articles.length > 0 && articles.splice(1).map((article, articleIndex) => (
                         <ArticleCard article={article} key={articleIndex} />
                     ))}
                 </div>
