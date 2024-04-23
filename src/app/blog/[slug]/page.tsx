@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+
+
+export const metadata: Metadata = {
+  title: "The Great Walls of China | TrekTribe",
+  description: "Though the Great Wall is over 6,000 kilometers long, the best 10 sections to visit are around Beijing's north and east.",
+};
 
 
 const BlogDetail = () => {
@@ -79,7 +87,7 @@ const BlogDetail = () => {
           <Image src="/media/images/blog/gallery/the-great-wall-of-china-9.png" alt="side view" height={846} width={1114} className="w-full h-full object-cover" priority/>
           <figcaption className="flex justify-between px-2 py-3">
             <Link href="/" className="underline text-primary-200 hover:text-primary-500">
-              See tips for visiting The Bund Shanghai 
+              See tips for visiting The Great Wall of China 
               <span className="bi-chevron-right"></span>
               <span className="bi-chevron-right"></span>
               <span className="bi-chevron-right"></span>

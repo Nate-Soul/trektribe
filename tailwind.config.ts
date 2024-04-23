@@ -31,6 +31,7 @@ const config: Config = {
         "primary-900": "#000000",
         "primary-950": "#000000",
         "secondary-500": "#072448",
+        "light-300": "#C3C3C3",
         "light-400": "#D1D3D4",
         "light-500": "#E8E8E8",
         "light-600": "#a3a3a4",
