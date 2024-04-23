@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const BlogDetail = () => {
   return (
     <>
-    <div className="relative h-screen bg-[url(/media/images/blog/gallery/the-great-wall-of-china-1.png)] bg-cover bg-center bg-no-repeat">
+    <div className="relative h-screen bg-[url(/media/images/blog/gallery/the-great-wall-of-china-1.jpg)] bg-cover bg-center bg-no-repeat">
       <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10"></div>
     </div>
     <section className="pb-16 bg-white">
