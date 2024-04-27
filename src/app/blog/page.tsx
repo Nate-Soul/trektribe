@@ -31,7 +31,7 @@ const BlogList = () => {
                         <h1 className="text-5xl font-extrabold capitalize leading-[81.96px]">{featuredArticle.title}</h1>
                         <p className="light-500 text-2xl leading-8">{featuredArticle.excerpt}</p>
                         <Link 
-                            href="/blog/from-dereams-to-reality"
+                            href="/blog/the-great-wall-of-china"
                             className="py-2 px-3 border bg-transparent inline-flex gap-x-2 justify-center items-center w-max rounded-lg"
                         >
                             Read More

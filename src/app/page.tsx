@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <>
     <MainHeader transparent={true} otherClasses="fixed top-0 z-40"/>
-    <section className="relative bg-[url(/media/images/gallery/villa.png)] bg-no-repeat bg-center bg-cover">
+    <section className="relative bg-[url(/media/images/gallery/villa.jpg)] bg-no-repeat bg-center bg-cover">
       <div className="absolute top-0 left-0 w-full h-full flex z-0">
         <div className="w-1/4 bg-primary-500 h-full"></div>
-        <div className="w-3/4 bg-black bg-opacity-10 h-full"></div>
+        <div className="w-3/4 bg-black bg-opacity-80 h-full"></div>
       </div>
       <div className="container min-h-screen flex items-center">
         <div className="hero-text z-10 w-4/5 flex flex-col gap-y-6">
@@ -24,7 +24,7 @@ export default function Home() {
             Explore
           </Link>
         </div>
-        <div className="hero-icons w-1/5 flex flex-col items-end">
+        <div className="hero-icons z-10 w-1/5 flex flex-col items-end">
           <ul className="flex flex-col gap-y-8 text-white text-2xl">
             <li className="hover:text-white">
               <span className="bi-whatsapp"></span>

@@ -15,19 +15,19 @@ const MainFooter = () => {
             </div>
             <div className="flex flex-col gap-y-3 items-center">
                 <ul className="flex gap-x-5 items-center">
-                    <li className="bg-light-400 w-[50px] h-[47px] rounded-2xl inline-flex items-center justify-center">
+                    {/* <li className="bg-light-400 w-[50px] h-[47px] rounded-2xl inline-flex items-center justify-center">
                         <Link href="https://instagram.com/trektribe">
                             <Image src="/media/images/icons/youtube.svg" height={30} width={30} alt="TrekTribe's YouTube channel" />
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="bg-light-400 w-[50px] h-[47px] rounded-2xl inline-flex items-center justify-center">
-                        <Link href="https://www.instagram.com/iamdivyarichy/">
-                            <Image src="/media/images/icons/instagram.svg" height={30} width={30} alt="TrekTribe's instagram handle" />
+                        <Link href="https://www.behance.net/misseshiet">
+                            <Image src="/media/images/icons/behance.svg" height={30} width={30} alt="TrekTribe's designer behance profile" />
                         </Link>
                     </li>
                     <li className="bg-light-400 w-[50px] h-[47px] rounded-2xl inline-flex items-center justify-center">
-                        <Link href="https://instagram.com/trektribe">
-                            <Image src="/media/images/icons/facebook.svg" height={30} width={30} alt="TrekTribe's facebook page" />
+                        <Link href="https://github.com/Nate-Soul">
+                            <Image src="/media/images/icons/github.svg" height={30} width={30} alt="Trektribe's developer github profile" />
                         </Link>
                     </li>
                 </ul>
