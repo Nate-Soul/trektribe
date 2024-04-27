@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+    <MainHeader transparent={true} otherClasses="fixed top-0 z-40"/>
     <section className="relative bg-[url(/media/images/gallery/villa.png)] bg-no-repeat bg-center bg-cover">
       <div className="absolute top-0 left-0 w-full h-full flex z-0">
         <div className="w-1/4 bg-primary-500 h-full"></div>

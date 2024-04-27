@@ -4,9 +4,6 @@ import { Bellefair } from "next/font/google";
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import MainHeader from "@/components/MainHeader";
-import MainFooter from "@/components/MainFooter";
-
 const alvenir = localFont({
   src: [
     {
@@ -62,11 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={alvenir.className}>
-        <MainHeader/>
-        <main>
         {children}
-        </main>
-        <MainFooter/>
       </body>
     </html>
   );

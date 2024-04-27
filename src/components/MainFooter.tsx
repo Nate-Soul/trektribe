@@ -21,7 +21,7 @@ const MainFooter = () => {
                         </Link>
                     </li>
                     <li className="bg-light-400 w-[50px] h-[47px] rounded-2xl inline-flex items-center justify-center">
-                        <Link href="https://instagram.com/trektribe">
+                        <Link href="https://www.instagram.com/iamdivyarichy/">
                             <Image src="/media/images/icons/instagram.svg" height={30} width={30} alt="TrekTribe's instagram handle" />
                         </Link>
                     </li>

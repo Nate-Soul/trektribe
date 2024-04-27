@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Navbar = () => {
+
+type navbarProps = {
+    transparent: boolean
+};
+
+const Navbar = ({ transparent }: navbarProps) => {
 
     const currentUrl = usePathname();
     const links = [
@@ -21,12 +26,7 @@ const Navbar = () => {
             id: 3,
             url: "/about",
             text: "About"
-        },
-        // {
-        //     id: 4,
-        //     url: "/#",
-        //     text: "More"
-        // },
+        }
     ];
 
   return (
@@ -36,7 +36,7 @@ const Navbar = () => {
                 links && links.map((link, linkIndex) => (
                     <li 
                         key={linkIndex}
-                        className={`hover:text-secondary-500 ${currentUrl === link.url && 'text-secondary-500 hover:text-primary-500'}`}
+                        className={`${transparent ? 'hover:text-white' : 'hover:text-secondary-500'} ${currentUrl === link.url ? transparent ? 'text-white hover:text-primary-50' : 'text-secondary-500 hover:text-primary-500': ''}`}
                     >
                         <Link href={link.url}>{link.text}</Link>
                     </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
             }
         </ul>
         <ul>
-            <li className="flex gap-2 items-center"> en <span className="bg-secondary-500 h-px w-8 inline-flex"></span> fr </li>
+            <li className="flex gap-2 items-center"> en <span className={`${transparent ? 'bg-white' : 'bg-secondary-500'} h-px w-8 inline-flex`}></span> fr </li>
         </ul>
         <ul className="flex gap-x-4 items-center">
             <li><button></button><span className="bi-list"></span></li>
