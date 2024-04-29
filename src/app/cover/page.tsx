@@ -12,7 +12,7 @@ const page = () => {
                 <button>
                     <span className="bi-arrow-left"></span>
                 </button>
-                <span className="text-lg rotate-[270deg]">Greece</span>
+                <span className="text-lg rotate-[270deg]">China</span>
                 <div className="rotate-[270deg] flex gap-x-2 items-center">
                     <span className="h-1 w-1 rounded-full bg-light-700"></span>
                     <span className="h-1 w-1 rounded-full bg-light-700"></span>

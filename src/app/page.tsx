@@ -19,7 +19,7 @@ export default function Home() {
           <p className="font-light text-light-300">
             Prepare for your travels like a seasoned explorer with our insider knowledge on the safest, most breathtaking destinations and the best strategies for every type of adventure. Let us guide you through the best travel seasons, top-notch agencies, and essential hacks for seamless exploration.
           </p>
-          <Link href="/blog" className="font-extrabold inline-flex gap-x-2 items-center text-white">
+          <Link href="/cover" className="font-extrabold inline-flex gap-x-2 items-center text-white">
             <span className="bi-arrow-right rounded-full h-6 w-6 bg-white text-black inline-flex justify-center items-center"></span>
             Explore
           </Link>
